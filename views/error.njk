@@ -1,0 +1,16 @@
+{% extends "layouts/layout.njk" %}
+
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Error personalizadoo</h1>
+			<h2>{{message}}</h2>
+			<p>{{error.status}}</p>
+			<pre class="alert alert-warning">{{error.stack}}</pre>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

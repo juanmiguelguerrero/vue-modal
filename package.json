@@ -1,0 +1,61 @@
+{
+  "name": "vue-modal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "npx npm-run-all --parallel watch:server watch:build",
+    "watch:build": "npx webpack --watch",
+    "watch:server": "npx nodemon \"./bin/www\""
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "nunjucks": "^3.0.1",
+    "popper.js": "^1.12.9",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^3.3.37",
+    "@types/jquery": "^3.3.0",
+    "@types/popper.js": "^1.11.0",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11",
+    "npm-run-all": "^4.1.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.3.1",
+    "typescript": "^2.6.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "description": "Ejemplo de componente en Vue",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmiguelguerrero/vue-modal.git"
+  },
+  "keywords": [
+    "scaffolder",
+    "nunjucks",
+    "node",
+    "express",
+    "base"
+  ],
+  "author": "Juan Miguel Guerrero <juanmiguel@existo.es> (https://www.existo.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanmiguelguerrero/vue-modal.git/issues"
+  },
+  "homepage": "https://github.com/juanmiguelguerrero/vue-modal.git#readme"
+}
